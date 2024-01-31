@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome Page and Student List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Divine Word College of Legazpi</h1>
+    <script src="script.js"></script>
+
+    <h2>Student Information List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course&Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vargas, Joel</td>
+                <td>26</td>
+                <td>BSIT2</td>
+            </tr>
+            <tr>
+                <td>Manlangit, Adrian</td>
+                <td>22</td>
+                <td>BSIT2</td>
+            </tr>
+            <tr>
+                <td>Carino, Reignier</td>
+                <td>21</td>
+                <td>BSIT2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="printStudentList()">Print Student List</button>
+</body>
+</html>
